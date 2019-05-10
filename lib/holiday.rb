@@ -18,7 +18,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #   }
   # }
   # return the second element in the 4th of July array
-  
+
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
@@ -63,7 +63,7 @@ def all_holidays_with_bbq(holiday_hash)
 
 end
 
-holiday = :new_years 
+holiday = :new_years
 y = holiday.to_s.split("_")
 
 capitalize(y).join(" ")
